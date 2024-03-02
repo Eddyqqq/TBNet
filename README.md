@@ -1,7 +1,7 @@
 # TBNET
 This repo holds codes of the paper: TB-Net: Intra- and Inter-video Correlation Learning for Continuous Sign Language Recognition.
 
-This repo is based on VAC (ICCV 2021)[[paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Min_Visual_Alignment_Constraint_for_Continuous_Sign_Language_Recognition_ICCV_2021_paper.html) [[code]](https://github.com/ycmin95/VAC_CSLR) and SMKD (ICCV 2021)[paper](https://openaccess.thecvf.com/content/ICCV2021/html/Hao_Self-Mutual_Distillation_Learning_for_Continuous_Sign_Language_Recognition_ICCV_2021_paper.html) [code](https://github.com/ycmin95/VAC_CSLR). Many thanks for their great work!
+This repo is based on VAC (ICCV 2021)[[paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Min_Visual_Alignment_Constraint_for_Continuous_Sign_Language_Recognition_ICCV_2021_paper.html) [[code]](https://github.com/ycmin95/VAC_CSLR) and SMKD (ICCV 2021)[[paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Hao_Self-Mutual_Distillation_Learning_for_Continuous_Sign_Language_Recognition_ICCV_2021_paper.html) [[code]](https://github.com/ycmin95/VAC_CSLR). Many thanks for their great work!
 
 Our training and inference procedure is modified from VAC(ICCV 2021) and SMKD (ICCV 2021). If you are familiar with VAC, you can play with TBNet easily!
 ## Prerequisites
@@ -17,13 +17,6 @@ Our training and inference procedure is modified from VAC(ICCV 2021) and SMKD (I
   ```
 
 - [SeanNaren/warp-ctc](https://github.com/SeanNaren/warp-ctc) for ctc supervision.
-
-## Implementation
-## The implementation for TBNet is given in [./modules/criterions.py](https://github.com/hulianyuyy/Temporal-Lift-Pooling/blob/main/modules/tconv.py). You can choose to use TLP or max pooling or average pooling in line 77-79. 
-
-## We notice that the kernel sizes of predictor and updater in lift pooling are set as 3 practically (which we wrongly report as 5 in the camera-ready version)
-
-## You can flexibly use TLP for other temporal tasks, e.g. action recogniton or video captioning.
 
 ## Data Preparation
 You can choose any one of following datasets to verify the effectiveness of TLP.

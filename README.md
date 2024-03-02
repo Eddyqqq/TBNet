@@ -1,4 +1,4 @@
-# TBNET
+# TBNet
 This repo holds codes of the paper: TB-Net: Intra- and Inter-video Correlation Learning for Continuous Sign Language Recognition.
 
 This repo is based on VAC (ICCV 2021)[[paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Min_Visual_Alignment_Constraint_for_Continuous_Sign_Language_Recognition_ICCV_2021_paper.html) [[code]](https://github.com/ycmin95/VAC_CSLR) and SMKD (ICCV 2021)[[paper]](https://openaccess.thecvf.com/content/ICCV2021/html/Hao_Self-Mutual_Distillation_Learning_for_Continuous_Sign_Language_Recognition_ICCV_2021_paper.html) [[code]](https://github.com/ycmin95/VAC_CSLR). Many thanks for their great work!

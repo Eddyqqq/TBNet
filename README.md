@@ -19,7 +19,7 @@ Our training and inference procedure is modified from VAC(ICCV 2021) and SMKD (I
 - [SeanNaren/warp-ctc](https://github.com/SeanNaren/warp-ctc) for ctc supervision.
 
 ## Data Preparation
-You can choose any one of following datasets to verify the effectiveness of TLP.
+You can choose any one of following datasets to verify the effectiveness of TBNet.
 
 ### PHOENIX2014 dataset
 1. Download the RWTH-PHOENIX-Weather 2014 Dataset [[download link]](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/). Our experiments based on phoenix-2014.v3.tar.gz.

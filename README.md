@@ -80,21 +80,21 @@ The results of TBNet on CSL dataset is placed in the supplementary material.
 
 ### PHOENIX2014 dataset
 
-| Backbone | Dev WER  | Test WER  | Pretrained model                                             |
+| Backbone | Dev WER  | Test WER  | Inference model                                             |
 | -------- | ---------- | ----------- | ------------------------------------------------------------ |
 | Baseline | 20.6%      | 21.0%       |  ------------------------------------------------------------ | 
 | ResNet18 | 18.9%      | 19.6%       | [[Baidu]](https://pan.baidu.com/s/1QRws8gylNzlpXvU52VCLww) (passwd: tsa2)<br />
 
 ### PHOENIX2014-T dataset
 
-| Backbone | Dev WER  | Test WER  | Pretrained model                                             |
+| Backbone | Dev WER  | Test WER  | Inference model                                             |
 | -------- | ---------- | ----------- | ------------------------------------------------------------ |
 | Baseline | 20.1%      | 21.8%       |  ------------------------------------------------------------ | 
 | ResNet18 | 18.8%      | 20.0%       | [[Baidu]](https://pan.baidu.com/s/1o8IvZhFuTWM9pZI1U8Y2YQ) (passwd: c6cq)<br />[[Google Drive]](https://drive.google.com/file/d/1xFv0ttMQdU6SMvncEnHT0OT6osUCSXVK/view?usp=sharing) |
 
 ### CSL-Daily dataset
 
-| Backbone | Dev WER  | Test WER  | Pretrained model                                            |
+| Backbone | Dev WER  | Test WER  | Inference model                                            |
 | -------- | ---------- | ----------- | --- |
 | Baseline | 30.3%      | 30.2%       |  --- | 
 | ResNet18 | 28.4%      | 28.2%       | [[Baidu]](https://pan.baidu.com/s/1bARLXmEC-PlHdVU8BGx_7Q) (passwd: xkhu)<br />[[Google Drive]](https://drive.google.com/file/d/1uTbxI3fVM_66F8TCr0M8x5mWpi3FCz0W/view?usp=share_link) |

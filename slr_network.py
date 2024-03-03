@@ -26,7 +26,6 @@ class NormLinear(nn.Module):
         outputs = torch.matmul(x, F.normalize(self.weight, dim=0))
         return outputs
 
-
 class SLRModel(nn.Module):
     def __init__(
             self, num_classes, vit_type, conv_type, use_bn=False,

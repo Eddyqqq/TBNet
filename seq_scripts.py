@@ -10,7 +10,6 @@ import torch.nn.functional as F
 from evaluation.slr_eval.wer_calculation import evaluate
 
 from torch.cuda.amp import autocast as autocast
-
 from torch.cuda.amp import GradScaler
 
 

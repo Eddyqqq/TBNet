@@ -42,8 +42,6 @@ class SLRModel(nn.Module):
                                  download_root="./modules/clip")
         if self.training:
             # IAM and IEM
-            self.crossattn = CrossAttn(hidden_size=1024)
-            self.glsfc = nn.Linear(512, hidden_size)
         self.conv1d = TemporalConv(input_size=512,
                                    hidden_size=hidden_size,
                                    conv_type=conv_type,

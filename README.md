@@ -97,7 +97,7 @@ The results of TBNet on CSL dataset is placed in the supplementary material.
 | Backbone | Dev WER  | Test WER  | Inference model               |
 | -------- | ---------- | ----------- | ------------------------- |
 | Baseline | 30.3%      | 30.2%       | ------------------------- |
-|  ViT16   | 28.4%      | 28.2%       | [[Baidu]](链接：https://pan.baidu.com/s/18wJkCPv40w2HVKbh9seyLw) (passwd: ezl2)<br /> |
+|  ViT16   | 28.4%      | 28.2%       | [[Baidu]](https://pan.baidu.com/s/18wJkCPv40w2HVKbh9seyLw) (passwd: ezl2)<br /> |
 
 ​	To evaluate the pretrained model, run the command below：   
 `python main.py --device your_device --load-weights path_to_weight.pt --phase test`

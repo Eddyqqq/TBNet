@@ -83,21 +83,21 @@ The results of TBNet on CSL dataset is placed in the supplementary material.
 | Backbone | Dev WER  | Test WER  | Inference model               |
 | -------- | ---------- | ----------- | ------------------------- |
 | Baseline | 20.6%      | 21.0%       | ------------------------- | 
-|  ViT16   | 18.9%      | 19.6%       | [[Baidu]](https://pan.baidu.com/s/1QRws8gylNzlpXvU5) (passwd: )<br /> |
+|  ViT16   | 18.9%      | 19.6%       | [[Baidu]](https://pan.baidu.com/s/13AZ1qqcGZkJeO8hyBFsMcA) (passwd: 3ppm)<br /> |
 
 ### PHOENIX2014-T dataset
 
 | Backbone | Dev WER  | Test WER  | Inference model               |
 | -------- | ---------- | ----------- | ------------------------- |
 | Baseline | 20.1%      | 21.8%       | ------------------------- |
-|  ViT16   | 18.8%      | 20.0%       | [[Baidu]](https://pan.baidu.com/s/1o8IvZhFuTWM9p) (passwd: )<br /> |
+|  ViT16   | 18.8%      | 20.0%       | [[Baidu]](https://pan.baidu.com/s/1asPbeAXnBsARevh6IbN65g) (passwd: chdq)<br /> |
 
 ### CSL-Daily dataset
 
 | Backbone | Dev WER  | Test WER  | Inference model               |
 | -------- | ---------- | ----------- | ------------------------- |
 | Baseline | 30.3%      | 30.2%       | ------------------------- |
-|  ViT16   | 28.4%      | 28.2%       | [[Baidu]](https://pan.baidu.com/s/1bARLXmEC-PlHdV) (passwd: )<br /> |
+|  ViT16   | 28.4%      | 28.2%       | [[Baidu]](链接：https://pan.baidu.com/s/18wJkCPv40w2HVKbh9seyLw) (passwd: ezl2)<br /> |
 
 ​	To evaluate the pretrained model, run the command below：   
 `python main.py --device your_device --load-weights path_to_weight.pt --phase test`
